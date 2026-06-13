@@ -1,4 +1,5 @@
 # Plataforma Analytics CDR - Proyecto Final Big Data
+<img width="1536" height="1024" alt="arquitectura_medallion" src="https://github.com/user-attachments/assets/e9dee650-2e7e-4ec0-80f1-5f261b130830" />
 
 ## Descripción
 
