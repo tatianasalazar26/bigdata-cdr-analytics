@@ -238,20 +238,6 @@ Resultado:
 
 ---
 
-# Resultados de Implementación
-
-![Resultados Plataforma](docs/pipeline_completo.png)
-
-La implementación permitió:
-
-* Procesar exitosamente más de 203 mil registros CDR.
-* Construir una arquitectura Medallion completa.
-* Automatizar procesos de transformación de datos.
-* Generar activos analíticos para consumo de negocio.
-* Integrar modelos de Machine Learning dentro del flujo de datos.
-
----
-
 # 5. Ciencia de Datos
 
 ## Modelo Prophet
