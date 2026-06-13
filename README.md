@@ -22,7 +22,8 @@
 
 # Arquitectura de la Solución
 
-![Arquitectura Medallion](docs/arquitectura_medallion.png)
+<img width="1536" height="1024" alt="arquitectura_medallion" src="https://github.com/user-attachments/assets/cfb95d03-0639-4e81-aa4f-0b329e41f68a" />
+
 
 La solución implementa una arquitectura Medallion sobre Databricks para procesar registros CDR (Call Detail Records) de telecomunicaciones, transformando datos operativos en información estratégica para la toma de decisiones empresariales.
 
