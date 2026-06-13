@@ -223,7 +223,8 @@ Total:
 
 # Resultados de Implementación
 
-![Resultados Plataforma](docs/pipeline_completo.png)
+<img width="617" height="372" alt="Captura de pantalla 2026-06-12 211729" src="https://github.com/user-attachments/assets/88f16628-8c66-4d8c-9ee6-2136315090fe" />
+
 
 La plataforma implementada logró:
 
