@@ -1,19 +1,19 @@
 # 📊 Plataforma Analytics CDR para Infraestructura de Telecomunicaciones
 
-
 ## Proyecto Final - Big Data 2026
 
 ### Autor
 
 **Angie Tatiana Salazar M.**
 
-### Tecnología Principal
+### Tecnologías Utilizadas
 
 * Databricks
 * Apache Spark
 * Delta Lake
 * Unity Catalog
 * Python
+* Pandas
 * Scikit-Learn
 * Prophet
 * MLflow
@@ -22,20 +22,20 @@
 
 # Arquitectura de la Solución
 
-<img width="1536" height="1024" alt="arquitectura_medallion" src="https://github.com/user-attachments/assets/cfb95d03-0639-4e81-aa4f-0b329e41f68a" />
+<img width="1536" height="1024" alt="arquitectura_medallion" src="https://github.com/user-attachments/assets/564de503-204e-44dd-8b18-a59cd3264430" />
 
 
-La solución implementa una arquitectura Medallion sobre Databricks para procesar registros CDR (Call Detail Records) de telecomunicaciones, transformando datos operativos en información estratégica para la toma de decisiones empresariales.
+La solución implementa una arquitectura Medallion sobre Databricks para el procesamiento de registros CDR (Call Detail Records), permitiendo transformar grandes volúmenes de datos operativos en información estratégica para la toma de decisiones empresariales.
 
 ---
 
-# Resumen Ejecutivo
+# Resumen 
 
-Las empresas de telecomunicaciones generan diariamente grandes volúmenes de información relacionados con llamadas, duración, costos, proveedores, destinos y patrones de consumo.
+Las empresas de telecomunicaciones generan diariamente grandes volúmenes de información asociados al tráfico de llamadas, duración, costos, proveedores, destinos y patrones de consumo.
 
-El presente proyecto desarrolla una plataforma analítica empresarial capaz de procesar más de 200.000 registros de llamadas, permitiendo automatizar procesos operativos, detectar anomalías, optimizar la facturación y generar modelos predictivos para mejorar la toma de decisiones.
+Este proyecto desarrolla una plataforma analítica empresarial capaz de procesar más de 200.000 registros CDR mediante una arquitectura moderna de Big Data implementada sobre Databricks, integrando procesos de ingeniería de datos, analítica avanzada y ciencia de datos.
 
-La solución utiliza Databricks como plataforma unificada de ingeniería de datos, analítica avanzada y ciencia de datos, implementando una arquitectura Medallion compuesta por capas Bronze, Silver y Gold.
+La solución permite automatizar la transformación de datos, optimizar procesos de facturación, detectar anomalías, segmentar clientes y generar predicciones de demanda para apoyar la toma de decisiones basada en datos.
 
 ---
 
@@ -43,27 +43,27 @@ La solución utiliza Databricks como plataforma unificada de ingeniería de dato
 
 ## Situación Actual
 
-La organización provee infraestructura de telecomunicaciones para clientes corporativos y enfrenta los siguientes desafíos:
+La organización presta servicios de infraestructura de telecomunicaciones para clientes corporativos y enfrenta los siguientes desafíos:
 
 * Limitada visibilidad sobre el comportamiento del tráfico de llamadas.
-* Procesos manuales de análisis y facturación.
-* Dificultad para detectar anomalías y posibles fraudes.
-* Baja capacidad para anticipar la demanda futura.
-* Retrasos en la generación de reportes gerenciales.
-* Dificultad para identificar oportunidades comerciales basadas en patrones de consumo.
+* Procesos manuales de consolidación y análisis de información.
+* Dificultad para detectar anomalías y posibles eventos de fraude.
+* Baja capacidad para anticipar comportamientos futuros de demanda.
+* Retrasos en la generación de reportes ejecutivos.
+* Limitado aprovechamiento comercial de los datos generados por la operación.
 
 ## Objetivo General
 
-Implementar una plataforma analítica basada en Big Data que permita transformar registros CDR en información estratégica para optimizar la operación y apoyar la toma de decisiones.
+Implementar una plataforma analítica basada en tecnologías Big Data que permita transformar registros CDR en información estratégica para optimizar la operación y fortalecer la toma de decisiones.
 
 ## Objetivos Específicos
 
 * Procesar más de 200.000 registros de llamadas.
-* Automatizar la consolidación y transformación de datos.
-* Detectar anomalías mediante modelos de Machine Learning.
-* Segmentar clientes según comportamiento de consumo.
-* Generar predicciones de demanda.
-* Construir indicadores para gestión ejecutiva.
+* Automatizar la consolidación y transformación de información.
+* Detectar anomalías mediante algoritmos de Machine Learning.
+* Segmentar clientes según patrones de comportamiento.
+* Generar modelos predictivos de demanda.
+* Construir indicadores ejecutivos para la gestión empresarial.
 
 ---
 
@@ -71,21 +71,21 @@ Implementar una plataforma analítica basada en Big Data que permita transformar
 
 ## Costos Actuales del Proceso Manual
 
-| Recurso                      | Horas/Mes | Costo Mensual   |
-| ---------------------------- | --------- | --------------- |
-| Analistas de Datos           | 320       | $8.000          |
-| Especialistas de Facturación | 160       | $4.800          |
-| Ingenieros de Soporte        | 80        | $3.200          |
+| Recurso                      | Horas/Mes |   Costo Mensual |
+| ---------------------------- | --------: | --------------: |
+| Analistas de Datos           |       320 |          $8.000 |
+| Especialistas de Facturación |       160 |          $4.800 |
+| Ingenieros de Soporte        |        80 |          $3.200 |
 | **Total**                    |           | **$16.000/mes** |
 
 ## Inversión del Proyecto
 
-| Concepto                    | Valor       |
-| --------------------------- | ----------- |
-| Infraestructura Databricks  | $15.000     |
-| Desarrollo e Implementación | $8.000      |
-| Capacitación                | $2.000      |
-| **Total Inversión**         | **$25.000** |
+| Concepto                    |       Valor |
+| --------------------------- | ----------: |
+| Infraestructura Databricks  |     $15.000 |
+| Desarrollo e Implementación |      $8.000 |
+| Capacitación                |      $2.000 |
+| **Inversión Total**         | **$25.000** |
 
 ## Beneficios Esperados
 
@@ -93,22 +93,24 @@ Implementar una plataforma analítica basada en Big Data que permita transformar
 
 * Automatización de procesos manuales.
 * Reducción de errores de facturación.
-* Optimización del uso de infraestructura.
+* Optimización del uso de infraestructura tecnológica.
+* Disminución de tiempos de análisis.
 
-### Nuevos Ingresos
+### Incremento de Ingresos
 
 * Identificación de oportunidades de upselling.
 * Mejora en la experiencia del cliente.
-* Incremento en la precisión de la facturación.
+* Mayor precisión en la facturación.
+* Incremento en la retención de clientes.
 
 ## Indicadores Financieros
 
-| Indicador                  | Resultado |
-| -------------------------- | --------- |
-| Beneficio Anual Proyectado | $288.000  |
-| Inversión Inicial          | $25.000   |
-| ROI Estimado               | 1.052%    |
-| Recuperación de Inversión  | 1 mes     |
+| Indicador                    | Resultado |
+| ---------------------------- | --------: |
+| Beneficio Anual Proyectado   |  $288.000 |
+| Inversión Inicial            |   $25.000 |
+| ROI Estimado                 |    1.052% |
+| Recuperación de la Inversión |     1 mes |
 
 ---
 
@@ -118,34 +120,49 @@ La solución utiliza una arquitectura Medallion implementada sobre Databricks y 
 
 ## Flujo General
 
-CDR Files → Auto Loader → Bronze → Silver → Gold → Machine Learning → Dashboards
+```text
+CDR Files
+    ↓
+Auto Loader
+    ↓
+Bronze Layer
+    ↓
+Silver Layer
+    ↓
+Gold Layer
+    ↓
+Machine Learning
+    ↓
+Dashboards y Consumo
+```
 
 ## Componentes Tecnológicos
 
 ### Fuente de Datos
 
-* Archivos CDR
-* Formatos CSV
-* Más de 203.000 registros procesados
+* Archivos CDR.
+* Formato CSV.
+* Más de 203.000 registros procesados.
 
 ### Ingesta
 
-* Databricks Auto Loader
-* Procesamiento automatizado
-* Escalabilidad horizontal
+* Databricks Auto Loader.
+* Procesamiento automatizado.
+* Escalabilidad horizontal.
 
 ### Almacenamiento
 
-* Delta Lake
-* ACID Transactions
-* Versionamiento
-* Data Governance
+* Delta Lake.
+* Transacciones ACID.
+* Versionamiento.
+* Data Governance.
 
 ### Gobierno de Datos
 
-* Unity Catalog
-* Control de acceso
-* Trazabilidad
+* Unity Catalog.
+* Control de acceso.
+* Trazabilidad.
+* Gestión centralizada de activos de información.
 
 ---
 
@@ -155,7 +172,7 @@ CDR Files → Auto Loader → Bronze → Silver → Gold → Machine Learning �
 
 ### Bronze Layer
 
-Tabla:
+Tabla principal:
 
 ```text
 cdr_analytics.bronze.cdr_raw
@@ -163,10 +180,10 @@ cdr_analytics.bronze.cdr_raw
 
 Características:
 
-* Datos originales.
-* Sin transformaciones.
+* Datos originales sin transformación.
 * Conservación histórica.
 * Auditoría de ingestión.
+* Trazabilidad completa.
 
 Registros procesados:
 
@@ -178,7 +195,7 @@ Registros procesados:
 
 ### Silver Layer
 
-Tabla:
+Tabla principal:
 
 ```text
 cdr_analytics.silver.cdr_cleaned
@@ -188,8 +205,8 @@ Transformaciones aplicadas:
 
 * Limpieza de datos.
 * Conversión de tipos.
-* Eliminación de duplicados.
-* Normalización de campos.
+* Eliminación de registros duplicados.
+* Normalización de atributos.
 * Enriquecimiento de información.
 
 Registros procesados:
@@ -213,69 +230,69 @@ cdr_customer_segments
 cdr_ml_predictions
 ```
 
-Total:
+Resultado:
 
 ```text
-6 tablas analíticas
+6 tablas analíticas para consumo empresarial
 ```
 
 ---
 
 # Resultados de Implementación
 
-<img width="617" height="372" alt="Captura de pantalla 2026-06-12 211729" src="https://github.com/user-attachments/assets/88f16628-8c66-4d8c-9ee6-2136315090fe" />
+![Resultados Plataforma](docs/pipeline_completo.png)
 
+La implementación permitió:
 
-La plataforma implementada logró:
-
-* Procesamiento exitoso de más de 203 mil registros.
-* Construcción de arquitectura Medallion.
-* Automatización de transformaciones.
-* Generación de tablas analíticas listas para negocio.
+* Procesar exitosamente más de 203 mil registros CDR.
+* Construir una arquitectura Medallion completa.
+* Automatizar procesos de transformación de datos.
+* Generar activos analíticos para consumo de negocio.
+* Integrar modelos de Machine Learning dentro del flujo de datos.
 
 ---
 
 # 5. Ciencia de Datos
 
-## Modelo 1 - Prophet
+## Modelo Prophet
 
 Objetivo:
 
 Predecir la demanda futura de tráfico de llamadas.
 
-Aplicación:
+Aplicaciones:
 
 * Planeación de capacidad.
 * Optimización de recursos.
-* Gestión preventiva.
+* Gestión preventiva de infraestructura.
 
 ---
 
-## Modelo 2 - K-Means
+## Modelo K-Means
 
 Objetivo:
 
 Segmentar clientes según patrones de comportamiento.
 
-Segmentos:
+Segmentos identificados:
 
-* Premium
-* Standard
-* Basic
+* Premium.
+* Standard.
+* Basic.
 
 Beneficio:
 
-Personalización de estrategias comerciales.
+Facilitar estrategias diferenciadas de atención y comercialización.
 
 ---
 
-## Modelo 3 - Isolation Forest
+## Modelo Isolation Forest
 
 Objetivo:
 
 Detectar anomalías y posibles eventos de fraude.
 
-Resultado:
+Resultado obtenido:
 
 ```text
 33.734 anomalías detectadas
@@ -283,15 +300,15 @@ Resultado:
 
 Beneficios:
 
-* Reducción de pérdidas.
-* Detección temprana de comportamientos atípicos.
-* Mejora del control operativo.
+* Reducción de pérdidas operativas.
+* Identificación temprana de comportamientos atípicos.
+* Fortalecimiento de controles internos.
 
 ---
 
 # 6. Visualización y Consumo
 
-La información procesada puede ser consumida mediante:
+La información generada puede ser consumida mediante:
 
 * Databricks SQL.
 * Dashboards ejecutivos.
@@ -308,19 +325,51 @@ La información procesada puede ser consumida mediante:
 * Tendencias históricas.
 * Predicciones de demanda.
 * Alertas de anomalías.
+* Métricas operativas y financieras.
 
 ---
 
 # Resultados Obtenidos
 
-| Indicador               | Resultado |
-| ----------------------- | --------- |
-| Registros Procesados    | 203.751   |
-| Registros Curados       | 203.733   |
-| Tablas Gold             | 6         |
-| Modelos ML              | 3         |
-| Anomalías Detectadas    | 33.734    |
-| Horizonte de Predicción | 30 días   |
+<img width="617" height="372" alt="Captura de pantalla 2026-06-12 211729" src="https://github.com/user-attachments/assets/bb9df010-041b-4610-896d-127c0b8d53fe" />
+
+
+---
+
+# Evidencias de Ejecución
+
+Las evidencias completas del proyecto se encuentran disponibles dentro de este repositorio.
+
+### Notebook Fuente
+
+**Plataforma_Analytics_CDR.ipynb**
+
+Contiene el desarrollo integral de la solución:
+
+* Caso de negocio.
+* Relación beneficio/coste.
+* Arquitectura propuesta.
+* Pipeline Medallion.
+* Procesamiento de datos.
+* Consultas analíticas.
+* Implementación de modelos de Machine Learning.
+
+### Evidencia Ejecutada
+
+**Plataforma_Analytics_CDR_Ejecucion_Completa.html**
+
+Contiene la ejecución completa del proyecto en Databricks, incluyendo:
+
+* Resultados de procesamiento.
+* Evidencias de las capas Bronze, Silver y Gold.
+* Tablas generadas.
+* Métricas calculadas.
+* Resultados de Prophet.
+* Resultados de K-Means.
+* Resultados de Isolation Forest.
+* Validaciones y salidas generadas por la plataforma.
+
+La versión HTML constituye la evidencia integral de ejecución y permite revisar los resultados sin requerir acceso a Databricks.
 
 ---
 
@@ -328,7 +377,6 @@ La información procesada puede ser consumida mediante:
 
 La implementación de la Plataforma Analytics CDR permitió construir una solución integral de Big Data basada en Databricks para el procesamiento masivo de registros de telecomunicaciones.
 
-La arquitectura Medallion garantizó calidad, trazabilidad y escalabilidad en el procesamiento de datos, mientras que los modelos de Machine Learning aportaron capacidades avanzadas de segmentación, predicción y detección de anomalías.
+La arquitectura Medallion garantizó calidad, trazabilidad, gobernanza y escalabilidad en el tratamiento de la información, mientras que los modelos de Machine Learning aportaron capacidades avanzadas de segmentación, predicción y detección de anomalías.
 
-Los resultados obtenidos demuestran el potencial de las tecnologías Big Data para transformar datos operativos en información estratégica, mejorando la eficiencia operativa, la capacidad de análisis y la toma de decisiones basada en datos.
-
+Los resultados obtenidos demuestran el potencial de las tecnologías Big Data para transformar datos operativos en información estratégica, optimizando procesos, fortaleciendo la toma de decisiones y generando valor a partir de los activos de información de la organización.
